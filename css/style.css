@@ -1,0 +1,268 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #3e3e4f;
+  font-family: "Noto Serif JP", serif;
+}
+
+header {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+header .info {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  header .info {
+    width: 100%;
+  }
+}
+header .info .infoinner h1 {
+  width: 100%;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+header .info .infoinner h1 .houjin {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+  header .info .infoinner h1 {
+    font-size: 2rem;
+  }
+}
+header .info .infoinner .logo {
+  margin: 0 auto 5rem auto;
+  width: 90%;
+}
+header .info .infoinner .logo img {
+  max-width: 100%;
+  width: 45rem;
+}
+header .info .infoinner .access {
+  width: 80%;
+  background-color: #e5e5eb;
+  padding: 1.5rem;
+  margin: auto;
+  max-width: 100%;
+}
+header .info .infoinner .access p {
+  text-align: center;
+}
+header .info .infoinner .access p + p {
+  margin: 1.5rem auto;
+}
+header .main {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  header .main {
+    margin: 1rem auto;
+  }
+}
+header .main img {
+  vertical-align: top;
+  width: 100%;
+}
+
+article .medicalhours {
+  background: linear-gradient(45deg, rgb(245, 253, 255) 0%, rgb(223, 237, 241) 100%);
+  padding: 7rem auto;
+  border-bottom: 4px solid #e5e5eb;
+}
+article .medicalhours .minner {
+  margin: 7rem auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1rem;
+}
+article .medicalhours .minner table {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+article .medicalhours .minner table caption {
+  font-size: 3.6rem;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 7rem auto;
+}
+article .medicalhours .minner table .hours {
+  width: 20rem;
+}
+article .medicalhours .minner table th, article .medicalhours .minner table td {
+  border: 1px solid #e5e5eb;
+  padding: 10px;
+  text-align: center;
+}
+article .medicalhours .minner table th {
+  width: 10rem;
+}
+article .medicalhours .minner table td {
+  width: 10rem;
+}
+article .medicalhours .minner p {
+  padding-top: 1.5rem;
+  margin: 0%;
+  width: 100%;
+  box-sizing: border-box;
+}
+article section h3 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+article section p + p {
+  margin-top: 1.5rem;
+}
+article section p {
+  width: 100rem;
+  max-width: 100%;
+}
+article .covid {
+  width: 100%;
+  max-width: 100%;
+  margin: 7rem auto 4rem auto;
+}
+@media screen and (max-width: 768px) {
+  article .covid {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  article .covid h3 {
+    width: 90%;
+  }
+}
+article .features {
+  background-image: url(../images/bg_room.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  width: 100%;
+  max-width: 100%;
+  padding: 7rem 0;
+}
+@media screen and (max-width: 768px) {
+  article .features {
+    padding: 3rem 1rem;
+  }
+}
+article .features .finner {
+  width: 100%;
+  margin: 7rem auto;
+}
+@media screen and (max-width: 768px) {
+  article .features .finner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+  }
+}
+article .features .finner .fbox {
+  border: 1px solid #e5e5eb;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem 3rem;
+  margin-bottom: 2rem;
+}
+article .features .finner .fbox h4 {
+  background-color: #ffffff;
+  color: #2268bc;
+  font-size: 2.4rem;
+  border-bottom: 3px solid #bbcbee;
+  display: inline-block;
+}
+article .features .finner .fbox h4 + p {
+  padding-top: 1.5rem;
+}
+article .features .fbox:nth-of-type(2n) {
+  margin-left: auto;
+}
+article .contact {
+  display: block;
+  padding: 7rem 0;
+  background: linear-gradient(45deg, rgb(245, 253, 255) 0%, rgb(223, 237, 241) 100%);
+}
+article .contact .cinner {
+  width: 100rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  article .contact .cinner {
+    width: 90%;
+  }
+}
+article .contact .cinner h3 {
+  font-size: 2.4rem;
+}
+article .contact .cinner .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto 10rem auto;
+}
+article .contact .cinner .btn button {
+  margin: 3rem 0;
+  padding: 1rem 8rem;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #2268bc;
+  border: 1px solid #2268bc;
+  border-radius: 3rem;
+  width: 36rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article .contact .cinner .btn button:hover {
+  background-color: #bbcdee;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2268bc;
+  height: 3.4rem;
+}
+footer small {
+  color: #ffffff;
+  font-size: 1.4rem;
+  padding: 1rem auto;
+  text-align: center;
+}
+
+.flogo {
+  margin: 0 auto;
+  width: 20%;
+}
+.flogo img {
+  max-width: 100%;
+  width: 45rem;
+}/*# sourceMappingURL=style.css.map */
